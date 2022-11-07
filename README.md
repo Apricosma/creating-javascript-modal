@@ -21,7 +21,7 @@ The setup for the HTML is extremely simple, you only need 1 `<button>`, 2 `<div>
 1. Start by creating a `<button>` that will be the button you use to open the modal, and give it a class for JavaScript to easily hook onto.
 2. Create a `<div>` which will be used for covering the entire background with a dim overlay, and give it a class of modal.
 3. Inside of that `<div>`, create another `<div>` which will be used for the content of the modal. This is the modal its self. Give it a simple class name, like 'content'.
-4. Add a `<span>` which will function as the close button for the modal. Give it a simple class, and place `&times;` insdie of it so a font-like X will display
+4. Add a `<span>` which will function as the close button for the modal. Give it a simple class, and place `&times;` inside of it so a font-like X will display
 
 ```HTML
 <!-- Button to open the modal -->
