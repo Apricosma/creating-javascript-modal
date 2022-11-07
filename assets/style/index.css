@@ -1,0 +1,64 @@
+@import "./reset.css";
+
+/* The dimmed background for the webpage*/
+.modal {
+    /* hides the dimmer until we change */
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(17, 17, 17, 0.396);
+}
+
+/* the inner content of the modal */
+.content {
+    background-color: #fefefe;
+    margin: auto;
+    margin-top: 40px;
+    padding: 40px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* the close button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    cursor: pointer;
+}
+
+/* button styling */
+.btn {
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 20px;
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    text-align: center;
+    border: 0;
+    padding: 7px 16px;
+    min-height: 36px;
+    min-width: 36px;
+    color: #ffffff;
+    background: #008060;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px, rgba(0, 0, 0, 0.2) 0px -1px 0px 0px inset;
+}
+
+.btn:hover {
+    background: #006e52;
+}
