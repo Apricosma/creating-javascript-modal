@@ -12,7 +12,7 @@ As you can see below, the modal stands out of the page, and is useful for highli
 
 #### Getting started
 
-You can find my example [here](apricosma.github.io/creating-javascript-modal) if you wish to inspect the full code.
+You can find my example [here](https://apricosma.github.io/creating-javascript-modal) if you wish to inspect the full code.
 
 The setup for the HTML is extremely simple, you only need 1 `<button>`, 2 `<div>`, and a `<span>`. 
 
