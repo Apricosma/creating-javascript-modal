@@ -142,7 +142,7 @@ Lastly, we need to make it so when the user clicks outside of the modal, the mod
 We exclude the modal its self with an if statement. `if (event.target == modal)` will refine the click event so that it only closes if you click on the grey of the page, since our `.modal` CSS is not the modal its self.
 
 ```JavaScript
-// closes the modal if you clcik anywhere except the modal
+// closes the modal if you click anywhere except the modal
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = 'none';
