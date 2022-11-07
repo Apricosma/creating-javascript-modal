@@ -2,7 +2,9 @@
 
 /* The dimmed background for the webpage*/
 .modal {
-    /* hides the dimmer until we change */
+    /*  hides the dimmer until we change the style
+        we use JavaScript to specifically change 
+        this one display: style parameter below */
     display: none; 
     position: fixed;
     z-index: 1;

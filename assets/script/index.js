@@ -23,7 +23,7 @@ onEvent('click', openButton, function() {
 
 onEvent('click', close, function() {
     modal.style.display = 'none'; // makes the X button close the modal
-})
+});
 
 // closes the modal if you clcik anywhere except the modal
 window.onclick = function(event) {
