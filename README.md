@@ -1,9 +1,11 @@
 ## Simple modal with vanilla JavaScript
 
 #### Disclaimer
+---
 This tutorial is aimed at people that already know the basics of HTML, CSS, and Java-script. I will not be explaining how HTML is formatted, or the styling used for the CSS. Only the core elements, so you can make something on your own.
 
 #### What we are making
+---
 A modal is a sort of modern version of a pop-up. Anybody who has been on the internet since Vista or before would know how obnoxious it would be having web-pages open up entirely new windows to show information. Modals work similarly, except you remain on the same webpage.
 
 As you can see below, the modal stands out of the page, and is useful for highlighting important information that you want your user to focus on without the distraction of the rest of the website.
@@ -11,7 +13,7 @@ As you can see below, the modal stands out of the page, and is useful for highli
 <img width='500px' src='https://i.imgur.com/q4GQAAS.png'>
 
 #### Getting started
-
+---
 You can find my example [here](https://apricosma.github.io/creating-javascript-modal) if you wish to inspect the full code.
 
 The setup for the HTML is extremely simple, you only need 1 `<button>`, 2 `<div>`, and a `<span>`. 
@@ -36,8 +38,10 @@ The setup for the HTML is extremely simple, you only need 1 `<button>`, 2 `<div>
 ```
 
 #### Essential CSS style
+---
 
 ##### Background-dimming 
+---
 Start by adding some simple style to your button to make it appear as you please.
 Then, the most important part, target your `.modal` class and add `display: none;` to it. Make the width and height of the element fill the screen with 100%, and give it a `background-color` with 40% or so opacity, and a near-black color.
 
@@ -54,7 +58,10 @@ Then, the most important part, target your `.modal` class and add `display: none
     background-color: rgba(17, 17, 17, 0.396);
 }
 ```
+
 ##### The modal
+---
+
 Following this, we're going to need to style our actual modal. Give the modal a `background-color` of your choice, and set `margin: auto;` and `width: 80%` so the modal has device responsiveness. You can lower the width percentage to whatever you wish, such as 40-50% for a more box-like element. 
 
 Place the modal wherever you wish on the screen utilizing `margin-top:`, and give it some `padding`.
@@ -71,6 +78,7 @@ Place the modal wherever you wish on the screen utilizing `margin-top:`, and giv
 ```
 
 ##### The close button
+---
 
 Simply make the X button whatever size you wish, and make it a greyish color. You may give it `:hover` if you choose.
 
@@ -86,6 +94,7 @@ Simply make the X button whatever size you wish, and make it a greyish color. Yo
 With this we should have the basic styling of the page down. 
 
 ##### Making it work with JavaScript
+---
 
 Create basic selection functions for the sake of convenience
 ```JavaScript
@@ -140,5 +149,7 @@ window.onclick = function(event) {
     }
 }
 ```
+#### Finishing statements
+---
 
 With this our modal should be working. Make sure to check the console for any null selectors if you are running into issues. You can add whatever content you want inside of a modal, you can even create a mini-webpage inside of the modal its self. 
